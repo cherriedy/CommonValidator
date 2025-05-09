@@ -13,7 +13,7 @@ import java.lang.annotation.Target;
 @ValidationMechanism(RegexPhoneNumberValidator.class)
 @Target(ElementType.FIELD)
 @Retention(RetentionPolicy.RUNTIME)
-public @interface PhoneRegex {
+public @interface PhoneNumberRegex {
     @NonNull
     String pattern();
 
